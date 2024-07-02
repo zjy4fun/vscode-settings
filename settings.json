@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "Vitesse Black",
+    "workbench.colorTheme": "Vitesse Dark",
     "files.autoSave": "afterDelay",
     "workbench.sideBar.location": "right",
     "workbench.activityBar.location": "top",
@@ -10,7 +10,6 @@
         "list.hoverBackground": "#4a4abf22",
         "sideBar.foreground": "#DFE1E5",
         "sideBarSectionHeader.background": "#2B2D30",
-        
         "statusBar.background": "#2B2D30",
         "statusBar.noFolderBackground": "#2B2D30",
         "statusBar.foreground": "#DFE1E5",
@@ -20,14 +19,6 @@
         "statusBarItem.prominentBackground": "#2E436E",
         "statusBarItem.prominentHoverBackground": "#4a4abf22",
         "titleBar.activeBackground": "#2B2D30",
-
-        "editor.foreground": "#DFE1E5",
-        "editor.background": "#2B2D30",
-        "editor.selectionBackground": "#4a4abf22",
-        "editor.selectionHighlightBackground": "#4a4abf22",
-        "editor.lineHighlightBackground": "#2E436E",
-        "editor.lineHighlightBorder": "#2E436E",
-        "editor.findMatchBackground": "#4a4abf22"
     },
     "workbench.tree.expandMode": "singleClick",
     "workbench.tree.indent": 18, // 
