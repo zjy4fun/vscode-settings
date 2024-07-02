@@ -19,8 +19,8 @@
         "statusBarItem.prominentHoverBackground": "#4a4abf22",
         "titleBar.activeBackground": "#2B2D30",
     },
-    "workbench.tree.expandMode": "singleClick",
-    "workbench.tree.indent": 18, // 
+    "workbench.tree.expandMode": "doubleClick",
+    "workbench.tree.indent": 18,
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.fontFamily": "'input mono', Menlo, Monaco, 'Courier New', monospace",
     "workbench.iconTheme": "material-icon-theme",
