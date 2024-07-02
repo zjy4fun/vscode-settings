@@ -3,11 +3,34 @@
     "files.autoSave": "afterDelay",
     "workbench.sideBar.location": "right",
     "workbench.activityBar.location": "top",
-    // Controls how tree folders are expanded when clicking the folder names. Note that some trees and lists might choose to ignore this setting if it is not applicable.
-	"workbench.tree.expandMode": "singleClick",
+    "workbench.colorCustomizations": {
+        "sideBar.background": "#2B2D30",
+        "list.activeSelectionBackground": "#2E436E",
+        "list.inactiveSelectionBackground": "#2E436E",
+        "list.hoverBackground": "#4a4abf22",
+        "sideBar.foreground": "#DFE1E5",
+        "sideBarSectionHeader.background": "#2B2D30",
+        
+        "statusBar.background": "#2B2D30",
+        "statusBar.noFolderBackground": "#2B2D30",
+        "statusBar.foreground": "#DFE1E5",
+        "statusBar.noFolderForeground": "#DFE1E5",
+        "statusBarItem.activeBackground": "#2E436E",
+        "statusBarItem.hoverBackground": "#4a4abf22",
+        "statusBarItem.prominentBackground": "#2E436E",
+        "statusBarItem.prominentHoverBackground": "#4a4abf22",
+        "titleBar.activeBackground": "#2B2D30",
 
-	// Controls tree indentation in pixels.
-	"workbench.tree.indent": 18,
+        "editor.foreground": "#DFE1E5",
+        "editor.background": "#2B2D30",
+        "editor.selectionBackground": "#4a4abf22",
+        "editor.selectionHighlightBackground": "#4a4abf22",
+        "editor.lineHighlightBackground": "#2E436E",
+        "editor.lineHighlightBorder": "#2E436E",
+        "editor.findMatchBackground": "#4a4abf22"
+    },
+    "workbench.tree.expandMode": "singleClick",
+    "workbench.tree.indent": 18, // 
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.fontFamily": "'input mono', Menlo, Monaco, 'Courier New', monospace",
     "workbench.iconTheme": "material-icon-theme",
@@ -110,5 +133,8 @@
         "*.w": "$(capture).*.w, I$(capture).w",
         "*.xaml": "$(capture).xaml.cs"
     },
-    "material-icon-theme.hidesExplorerArrows": false
+    "material-icon-theme.hidesExplorerArrows": false,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    }
 }
