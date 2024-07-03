@@ -126,5 +126,6 @@
     "material-icon-theme.hidesExplorerArrows": false,
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
-    }
+    },
+    "workbench.list.openMode": "doubleClick"
 }
