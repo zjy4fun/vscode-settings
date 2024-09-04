@@ -1,23 +1,6 @@
 {
     "files.autoSave": "afterDelay",
     "workbench.activityBar.location": "top",
-    // "workbench.colorCustomizations": {
-    //     "sideBar.background": "#2B2D30",
-    //     "list.activeSelectionBackground": "#2E436E",
-    //     "list.inactiveSelectionBackground": "#2E436E",
-    //     "list.hoverBackground": "#4a4abf22",
-    //     "sideBar.foreground": "#DFE1E5",
-    //     "sideBarSectionHeader.background": "#2B2D30",
-    //     "statusBar.background": "#2B2D30",
-    //     "statusBar.noFolderBackground": "#2B2D30",
-    //     "statusBar.foreground": "#DFE1E5",
-    //     "statusBar.noFolderForeground": "#DFE1E5",
-    //     "statusBarItem.activeBackground": "#2E436E",
-    //     "statusBarItem.hoverBackground": "#4a4abf22",
-    //     "statusBarItem.prominentBackground": "#2E436E",
-    //     "statusBarItem.prominentHoverBackground": "#4a4abf22",
-    //     "titleBar.activeBackground": "#2B2D30",
-    // },
     "workbench.tree.expandMode": "singleClick",
     "workbench.tree.indent": 18,
     "editor.cursorSmoothCaretAnimation": "on",
@@ -127,6 +110,11 @@
     },
     "workbench.list.openMode": "singleClick",
     "workbench.colorTheme": "JetBrains New UI Dark Theme",
-    "workbench.sideBar.location": "right",
-    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark"
+    "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-dark",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
